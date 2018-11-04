@@ -1,4 +1,4 @@
-Influence  of  Russian  trolls on American elections
+# Influence  of  Russian  trolls on American elections
 
 
 # Abstract
@@ -31,7 +31,14 @@ Finally, for the timeline of the campaign and its major events, [Wikipedia](http
 
 
 # A list of internal milestones up until project milestone 2
-Add here a sketch of your planning for the next project milestone.
+* Identify and gather relevant and useful data.
+* Take a first look at those data and get an idea of their size, representation, basic statistics, missing values...
+* Decide which tools are the best suited for our project.
+* Clean the data and reduce them into smaller dataframes containing the relevant information.
+* Read studies that have already been conducted on our subject.
+* Adapt the orientation of our project and our milestones according to our findings.
 
 # Questions for TAs
-Add here some questions you have for us, in general or project-specific.
+* What do you think of the scope of our project? Should we restrict/broaden it?
+* What if we arrive at the conclusion that the Russian trolls did not have a significant impact on the election? Is the social aspect of the project sufficient?
+
