@@ -21,7 +21,7 @@ On the other side, we will study the methods employed by the Russians to disrupt
 
 
 # Dataset
-The main dataset we are going to use for this project is the [Russian Troll Tweets](https://www.kaggle.com/fivethirtyeight/russian-troll-tweets) dataset from Kaggle. It contains around 3 million tweets of accounts associated with IRA. It gives information about the account itself (Twitter handle, number of followers and following, type of troll...), and about the individual tweet (content, date and time of publication, type of post, number of retweets...).
+The main dataset we are going to use for this project is the [Russian and Iranian Troll Tweets](https://drive.google.com/open?id=1GBsVXYvPrGcYI-wR4mWGO39fly1TMqjO) dataset from [Twitter](https://about.twitter.com/en_us/values/elections-integrity.html#data). It contains over 10 million tweets of accounts associated with IRA and Iranian trolls. It gives information about the account itself (Twitter handle, number of followers and following, account preferences...), and about the individual tweet (content, date and time of publication, type of post, number of retweets...).
 
 Regarding the popularities of the candidates, we have identified an important amount of possible data source on [realclearpolitics.com](https://www.realclearpolitics.com/epolls/latest_polls/president/#). Finding the relevant and useable data is part of our future milestones. [Some websites](https://cesrusc.org/election/) propose their election forecast in csv format, making it easy for us to deal with it.
 
