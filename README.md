@@ -70,10 +70,6 @@ link or to perform web scrapping . We must embed a visualization of the presiden
 * Are you aware of the way our provided dataset (from Ada's course, Twitter Project on Mattemost) was built ? 
 Which filter did GoogleAPI's use in order to detect troll accounts/ troll tweets and how did they manage to collect all those records?
 
-   
-
-# Questions for TAs
-* 
 
 ________________________________________________________________________________________________________________________________________
 
