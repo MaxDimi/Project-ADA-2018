@@ -51,10 +51,9 @@ ________________________________________________________________________________
 
 # What are the objectives after milestone 2 ?
 Here below, we state whether or not we think our initial objectives can be fulfilled in a satisfactory manner : 
-- 1. and 2. YES : Trends, approval votes, polls are available on the internet (csv files or web scrapping) and the variety of data
-we have is enough to comment with significance about underlaying links between troll tweets and events/intentions of votes during the campaign. One bottleneck will be to find out (if there's any relationship between troll tweets and campaign's events) if trolls did impact the campaign or did the campaign intefere with casual troll tweets (that maybe existed way before and in the same fashion). 
-- 3. , 4. and 5.  YES : We have full access to trolls contents'. Nevertheless there exist many tweets not in english. To address this difficulty we've already set up some automatisatic language processing in order to translate. Once the translation is done, it's quite easy to compute several measures of similarity, correlations ... etc with 'group by' statements.
-- 6. maybe NO : We can't tell for now. We first have to answer questions 1) to 5) to see if there's really a strategy that's hiding behind troll tweets.
+- Questions 1. and 2. YES : Trends, approval votes, polls are available on the internet (csv files or web scrapping) and the variety of data we have is enough to comment with significance about underlaying links between troll tweets and events/intentions of votes during the campaign. One bottleneck will be to find out (if there's any relationship between troll tweets and campaign's events) if trolls did impact the campaign or did the campaign intefere with casual troll tweets (that maybe existed way before and in the same fashion). 
+- Questions 3. , 4. and 5.  YES : We have full access to trolls contents'. Nevertheless there exist many tweets not in english. To address this difficulty we've already set up some automatisatic language processing in order to translate. Once the translation is done, it's quite easy to compute several measures of similarity, correlations ... etc with 'group by' statements.
+- Question 6. maybe NO : We can't tell for now. We first have to answer questions 1) to 5) to see if there's really a strategy that's hiding behind troll tweets.
 _____________________________________________________________________________________________________________________________________
 
 # A list of internal milestones up until project milestone 3
