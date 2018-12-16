@@ -82,29 +82,34 @@ ________________________________________________________________________________
 
 This part mostly consisted in 
 
-    * Time Slicing : we detected several time windows wherein the activity of IRA's trolls differ both in volume and content
-    * Events Matching : we spotted many correlations between peaks of political troll tweets and political events that happened around                            the world during 2009-2018.  
-    * Evolution of Support : with the help of our Sentimental Analysis (see below) we managed to introduce sentimental "deltas" (weekly)                              to assess the support (globally positive/negative) for US candidates during the campaign period. 
+* Time Slicing : we detected several time windows wherein the activity of IRA's trolls differ both in volume and content
+
+* Events Matching : we spotted many correlations between peaks of political troll tweets and political events that happened around the world during 2009-2018.  
+
+* Evolution of Support : with the help of our Sentimental Analysis (see below) we managed to introduce sentimental "deltas" (weekly) to assess the support (globally positive/negative) for US candidates during the campaign period. 
     
 * Textual Analysis :
 
 This part mostly consisted in 
 
-    * Sentimental Analysis : with two different approaches we implemented the 'sentimental' scan of tweets' contents and classify a                                   tweet as positive / negative for either Trump, Clinton or Obama. 
-    * Words and Hashtags used in Tweets : we analyzed the most frequents words / hashtages used in troll tweets and compared them with                                            the most common words / hashtags used in general on Twitter
-    * Tweets Translation : we translated several tweets whose contents were in russian in order to get an insight for them. 
+* Sentimental Analysis : with two different approaches we implemented the 'sentimental' scan of tweets' contents and classify a tweet as positive / negative for either Trump, Clinton or Obama. 
+
+* Words and Hashtags used in Tweets : we analyzed the most frequents words / hashtages used in troll tweets and compared them with the most common words / hashtags used in general on Twitter
+
+* Tweets Translation : we translated several tweets whose contents were in russian in order to get an insight for them. 
     
 * Retweets Analysis / URLS in Tweets  :
 
 This part mostly consisted in 
 
-    * Users Interactions by Retweets : we analyzed the links (by retweets analysis) that existed between troll accounts ; that lead to                                          clusters and interpretations about IRA's troll farm.
-    * URLS :                           what are the urls / medias used by troll accounts
+* Users Interactions by Retweets : we analyzed the links (by retweets analysis) that existed between troll accounts ; that lead to clusters and interpretations about IRA's troll farm.
+
+* URLS : what are the urls / medias used by troll accounts
     
  Finally we interested ourselves about the differences between english / russian troll accounts structures. 
  
                 
-                            ====> Link to our DataStory : https://abaracadacabara.github.io <=====
+ ====> Link to our DataStory : https://abaracadacabara.github.io <=====
                             
   
 # ROLES :
