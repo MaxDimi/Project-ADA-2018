@@ -139,16 +139,6 @@ regarding US 2016 presidential elections and Crimean's armed  conflict (Donbass'
 
 - Textual analysis shed light on the fact that trollers tend to use a vocabulary that is, in general, more *negative*. Their favourite word is *Trump* ! 
 
-- To conclude, what our analysis pointed out was the fact that there are many and many things one adventurous mind could say 
-while performing classical data analysis on IRA's tweets dataset. As mentionned in both our Jupyter Notebook and DataStory, we lack of the so called *21st century fuel* : **data** . Mostly data about the effects of an (over)exposure to fake news/trolls on the opinion of people. Such informations sometimes exist but are either non-free or incomplete. After realizing the impossibility of totally fulfilling the original requirements (by this we mean : answering ***all*** our initial questions) we started to think differently. We managed to discover as many as possible pieces of evidence, traces of possible inferences of IRA's trollers. 
-
-At the end of the day what we would like to underline is the correct identification of the troll accounts : our analysis showed so many correlations and confounding events that we can hardly say that those accounts were not willing to spread misinformation towards the internet (here through Twitter).  
-
-Here are, for each analysis, the facts one can bring home : 
-
-- The temporal analysis showed that the volume of activity of the trollers matches very well mediatic (political) events ; especially 
-regarding US 2016 presidential elections and Crimean's armed  conflict (Donbass' war). 
-
-- Textual analysis shed light on the fact that trollers tend to use a vocabulary that is, in general, more *negative*. Their favourite word is *Trump* ! 
+- Russian speaking accounts interact more between each other and focus on spreading messages from their government's news media. Meanwhile, English speaking accounts look more casual, and manage to get retweeted more frequently.
 
 This concludes a gigantic project that taught us what is the job of a data scientist ; its difficulties but also its pleasures that are to discover hidden patterns and have better understanding of the world !
