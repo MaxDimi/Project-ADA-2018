@@ -1,4 +1,9 @@
-# Influence  of  Russian  trolls on American elections
+# Analysing IRA Tweets 
+
+Sub-Subject : 
+-------------
+
+## => Influence  of  Russian  trolls on American elections
 
 # Abstract
 Among the enormous volume of tweets exchanged during the 2016 US presidential election campaign, millions were sent by alleged Russian troll accounts. Those accounts have been accused of manipulating the campaign and its outcome.
@@ -69,7 +74,76 @@ link or to perform web scrapping . We must embed a visualization of the presiden
 * Are you aware of the way our provided dataset (from Ada's course, Twitter Project on Mattemost) was built ? 
 Which filter did GoogleAPI's use in order to detect troll accounts/ troll tweets and how did they manage to collect all those records?
 
+_____________________________________________________________________________________________________________________________________
 
-________________________________________________________________________________________________________________________________________
+# What have we done for milestone 3 ?
 
+* Temporal Analysis : Global / Time Window
 
+This part mostly consisted in 
+
+    * Time Slicing : we detected several time windows wherein the activity of IRA's trolls differ both in volume and content
+    * Events Matching : we spotted many correlations between peaks of political troll tweets and political events that happened around                            the world during 2009-2018.  
+    * Evolution of Support : with the help of our Sentimental Analysis (see below) we managed to introduce sentimental "deltas" (weekly)                              to assess the support (globally positive/negative) for US candidates during the campaign period. 
+    
+* Textual Analysis :
+
+This part mostly consisted in 
+
+    * Sentimental Analysis : with two different approaches we implemented the 'sentimental' scan of tweets' contents and classify a                                   tweet as positive / negative for either Trump, Clinton or Obama. 
+    * Words and Hashtags used in Tweets : we analyzed the most frequents words / hashtages used in troll tweets and compared them with                                            the most common words / hashtags used in general on Twitter
+    * Tweets Translation : we translated several tweets whose contents were in russian in order to get an insight for them. 
+    
+* Retweets Analysis / URLS in Tweets  :
+
+This part mostly consisted in 
+
+    * Users Interactions by Retweets : we analyzed the links (by retweets analysis) that existed between troll accounts ; that lead to                                          clusters and interpretations about IRA's troll farm.
+    * URLS :                           what are the urls / medias used by troll accounts
+    
+ Finally we interested ourselves about the differences between english / russian troll accounts structures. 
+ 
+                
+                            ====> Link to our DataStory : https://abaracadacabara.github.io <=====
+                            
+  
+# ROLES :
+---------
+
+Every team member did perform several analysis, wrote code and sought after informations (events timelines, typical distributions
+of tweets' words/hashtags ... etc) on the Internet. 
+
+Nevertheless we can distinguish the effort of everyone by the following work classification :
+
+* Henri Moumal : JavaScript of DataStory, Textual Analysis , Merge Notebooks, DataStory
+* Guillaume Van Dessel : Temporal Analysis, Textual Analysis, Tweets' content, Timeline researchs, Interpretation of the data.
+* Maxime Dimidschstein : Wrangling / Cleaning the Data, URLS , Retweets Analysis and between Users links.
+
+# CONCLUSION :
+--------------
+
+To conclude, what our analysis pointed out was the fact that there are many and many things one adventurous mind could say 
+while performing classical data analysis on IRA's tweets dataset. As mentionned in both our Jupyter Notebook and DataStory, we lack of the so called *21st century fuel* : **data** . Mostly data about the effects of an (over)exposure to fake news/trolls on the opinion of people. Such informations sometimes exist but are either non-free or incomplete. After realizing the impossibility of totally fulfilling the original requirements (by this we mean : answering ***all*** our initial questions) we started to think differently. We managed to discover as many as possible pieces of evidence, traces of possible inferences of IRA's trollers. 
+
+At the end of the day what we would like to underline is the correct identification of the troll accounts : our analysis showed so many correlations and confounding events that we can hardly say that those accounts were not willing to spread misinformation towards the internet (here through Twitter).  
+
+Here are, for each analysis, the facts one can bring home : 
+
+- The temporal analysis showed that the volume of activity of the trollers matches very well mediatic (political) events ; especially 
+regarding US 2016 presidential elections and Crimean's armed  conflict (Donbass' war). 
+
+- Textual analysis shed light on the fact that trollers tend to use a vocabulary that is, in general, more *negative*. Their favourite word is *Trump* ! 
+
+- To conclude, what our analysis pointed out was the fact that there are many and many things one adventurous mind could say 
+while performing classical data analysis on IRA's tweets dataset. As mentionned in both our Jupyter Notebook and DataStory, we lack of the so called *21st century fuel* : **data** . Mostly data about the effects of an (over)exposure to fake news/trolls on the opinion of people. Such informations sometimes exist but are either non-free or incomplete. After realizing the impossibility of totally fulfilling the original requirements (by this we mean : answering ***all*** our initial questions) we started to think differently. We managed to discover as many as possible pieces of evidence, traces of possible inferences of IRA's trollers. 
+
+At the end of the day what we would like to underline is the correct identification of the troll accounts : our analysis showed so many correlations and confounding events that we can hardly say that those accounts were not willing to spread misinformation towards the internet (here through Twitter).  
+
+Here are, for each analysis, the facts one can bring home : 
+
+- The temporal analysis showed that the volume of activity of the trollers matches very well mediatic (political) events ; especially 
+regarding US 2016 presidential elections and Crimean's armed  conflict (Donbass' war). 
+
+- Textual analysis shed light on the fact that trollers tend to use a vocabulary that is, in general, more *negative*. Their favourite word is *Trump* ! 
+
+This concludes a gigantic project that taught us what is the job of a data scientist ; its difficulties but also its pleasures that are to discover hidden patterns and have better understanding of the world !
