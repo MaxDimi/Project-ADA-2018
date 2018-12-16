@@ -28,6 +28,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+head_scripts:
+  - https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
